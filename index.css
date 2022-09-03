@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: #0C4A6E;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white
+}
+.score-div{
+    height: 100px;
+    width:  100px;
+    background: black;
+    color: red
+}
+p{
+    font-size: 50px;
+    text-align: center;
+    width: 80%;
+    margin:  auto;
+    padding: 12px;
+}
+button{
+    width: 40px;
+    height:40px ;
+    border: 1px solid white;
+    margin-top: 10px;
+    background: transparent;
+    color:aliceblue;
+    border-radius: 5px;
+}
+.reset{
+    width: 100px;
+    text-align: center;
+}
